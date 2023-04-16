@@ -29,7 +29,7 @@ public class ScGameGlobalData : MonoBehaviour {
     // //////////////////////////////////////////////
     // Game- score data
 
-    public static int initialLives = 5; // Initial value of the number of lives of the players
+    public static int initialLives = 20; // Initial value of the number of lives of the players
 
     public int profitsPlayer_Near;  // Number of profits that the player Near get along the play
     public int profitsPlayer_Far;  // Number of profits that the player Far get along the play

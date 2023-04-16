@@ -33,12 +33,12 @@ public class ScTeamAI_Far : MonoBehaviour {
         Game = GameObject.FindWithTag("Game");
 
         // if we are team near: (if you are not, comment these two lines)
-        Teammates_list = Game.GetComponent<ScGameGlobalData>().listTeam_Near;
-        opponents_list = Game.GetComponent<ScGameGlobalData>().listTeam_Far;
+ //       Teammates_list = Game.GetComponent<ScGameGlobalData>().listTeam_Near;
+ //       opponents_list = Game.GetComponent<ScGameGlobalData>().listTeam_Far;
 
         // if we are team far: (if you are not, comment these two lines)
-//        Teammates_list = Game.GetComponent<ScGameGlobalData>().listTeam_Far;
-//        opponents_list = Game.GetComponent<ScGameGlobalData>().listTeam_Near;
+        Teammates_list = Game.GetComponent<ScGameGlobalData>().listTeam_Far;
+        opponents_list = Game.GetComponent<ScGameGlobalData>().listTeam_Near;
 
     }  // FIn de - void Start()
 
